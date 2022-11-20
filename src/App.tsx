@@ -4,8 +4,7 @@ import "./css/main.css";
 
 const App = () => {
   return (
-    <SApp className="App">
-      <h1>hello, world</h1>
+    <SApp>
       <Card />
     </SApp>
   );
