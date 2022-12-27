@@ -64,7 +64,8 @@ export const SCardShoesWrapper = styled(motion.div)`
 
 export const SCardShoes = styled(motion.img)`
   width: 100%;
-  user-select: none;
+  pointer-events: none;
+  cursor: none;
 `;
 
 SCardShoes.defaultProps = {
