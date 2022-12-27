@@ -44,6 +44,7 @@ export const Card = () => {
           style={{ x, y, rotateX, rotateY, z: 2000 }}
           drag
           dragElastic={0.12}
+          dragConstraints={{ top: 0, right: 0, bottom: 0, left: 0 }}
           whileTap={{ cursor: "grabbing" }}
         >
           <SCardShoes />
